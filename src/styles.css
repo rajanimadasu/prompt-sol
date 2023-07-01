@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+@import "node_modules/bootstrap/dist/css/bootstrap.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=PT+Serif:ital@0;1&display=swap');
+header
+{
+    background-color : #ccc;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+}
+.bg
+{
+    background-image: url('..\src\assets\images\background_abstract.jpg');
+    /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  span.small {
+    font-size: smaller;
+  }
+  #slogan {
+    color:darkorange;
+    font-size: 16px;
+    display: block;
+    margin : 0;
+    padding : 0;
+  }
+  .title{
+    margin : 0;
+    padding : 0;
+    margin-top: 0px;
+  }
+  .side_heading{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    color: #0069d9;
+  }
+  .side_heading1{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    color: #0069d9;
+  }
+
+  .side_heading2{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #0069d9;
+  }
