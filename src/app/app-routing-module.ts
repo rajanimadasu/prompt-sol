@@ -11,7 +11,7 @@ import { PartnershipComponent } from "./components/partnership/partnership.compo
 import { MainpageslidingComponent } from "./pages/mainpagesliding/mainpagesliding.component";
 
 const routes:Routes = [
-    {path:'/mywebsite', redirectTo: 'main', pathMatch : 'full'},
+    {path:' ', redirectTo: 'mainsliding', pathMatch : 'full'},
     {path:'main', component : MainpageComponent},
     {path:'mainsliding', component : MainpageslidingComponent},
     {path:'home', component : HomeComponent},
