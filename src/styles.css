@@ -61,3 +61,11 @@ body {
   .phone-icon {
     background-image: url("./assets/images/phone_icon.jpg");
   }
+ 
+
+.phoneimage {
+  width: 20px;
+  height: 15px;
+  background-image: url('../src/assets/images/phone_icon.jpg') ;
+  background-size: 20px 15px;
+}
