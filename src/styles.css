@@ -96,3 +96,11 @@ body {
   background-size: 700px 430px;
 
 }
+
+.careers_img{
+  background-image: url('../src/assets/images/careers.jpg') ;
+  width : 700px;
+  height : 430px;
+  background-size: 700px 430px;
+
+}
