@@ -69,3 +69,30 @@ body {
   background-image: url('../src/assets/images/phone_icon.jpg') ;
   background-size: 20px 15px;
 }
+
+.mainpagesliding_bg {
+
+  background-image: url('../src/assets/images/grey_bg.jpg') ;
+     /* Full height */
+     height: 100%;
+
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+  
+}
+.staffing_img{
+  background-image: url('../src/assets/images/staffing-2.jpg') ;
+  width : 700px;
+  height : 430px;
+  background-size: 700px 430px;
+
+}
+.staffing_search{
+  background-image: url('../src/assets/images/staffing_search.jpg') ;
+  width : 700px;
+  height : 430px;
+  background-size: 700px 430px;
+
+}
