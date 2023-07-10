@@ -57,3 +57,7 @@ body {
     font-size: 40px;
     color: #0069d9;
   }
+
+  .phone-icon {
+    background-image: url("./assets/images/phone_icon.jpg");
+  }
