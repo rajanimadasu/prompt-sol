@@ -57,6 +57,19 @@ body {
     font-size: 40px;
     color: #0069d9;
   }
+  .side_heading3{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #0069d9;
+  }
+  .side_heading4{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #0069d9;
+    font-weight: bold;
+  }
 
   .phone-icon {
     background-image: url("./assets/images/phone_icon.jpg");
@@ -99,6 +112,13 @@ body {
 
 .careers_img{
   background-image: url('../src/assets/images/careers.jpg') ;
+  width : 700px;
+  height : 430px;
+  background-size: 700px 430px;
+
+}
+.services_img{
+  background-image: url('../src/assets/images/services_staffing.jpg') ;
   width : 700px;
   height : 430px;
   background-size: 700px 430px;
