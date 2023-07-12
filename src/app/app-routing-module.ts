@@ -11,7 +11,7 @@ import { PartnershipComponent } from "./components/partnership/partnership.compo
 import { MainpageslidingComponent } from "./pages/mainpagesliding/mainpagesliding.component";
 
 const routes:Routes = [
-    {path:'', redirectTo: 'mainsliding', pathMatch : 'full'},
+    {path:'',  component : MainpageslidingComponent},
     {path:'https://rajanimadasu.github.io/prompt-sol/mywebsite',redirectTo:'mainsliding'},
     {path:'main', component : MainpageComponent},
     {path:'mainsliding', component : MainpageslidingComponent},
@@ -21,7 +21,8 @@ const routes:Routes = [
     {path:'services', component : ServicesComponent},
     {path:'mission', component : MissionComponent},
     {path:'expertise', component : ExpertiseComponent},
-    {path:'partnership', component : PartnershipComponent}
+    {path:'partnership', component : PartnershipComponent},
+    {path: '**', component : MainpageslidingComponent}
 
 ]
 
