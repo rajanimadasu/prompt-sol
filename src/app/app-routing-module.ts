@@ -12,7 +12,7 @@ import { MainpageslidingComponent } from "./pages/mainpagesliding/mainpageslidin
 
 const routes:Routes = [
     {path:'',  component : MainpageslidingComponent},
-    {path:'https://rajanimadasu.github.io/prompt-sol/mywebsite',redirectTo:'mainsliding'},
+    {path:'https://rajanimadasu.github.io/prompt-sol',redirectTo:'mainsliding'},
     {path:'main', component : MainpageComponent},
     {path:'mainsliding', component : MainpageslidingComponent},
     {path:'home', component : HomeComponent},
