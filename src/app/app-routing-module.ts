@@ -14,7 +14,7 @@ import { ThankyouComponent } from "./pages/thankyou/thankyou.component";
 
 const routes:Routes = [
     {path:'',  component : MainpageslidingComponent},
-    {path:'https://rajanimadasu.github.io/prompt-sol/mywebsite',redirectTo:'mainsliding'},
+    {path:'https://rajanimadasu.github.io/prompt-sol',component : MainpageslidingComponent},
     {path:'main', component : MainpageComponent},
     {path:'mainsliding', component : MainpageslidingComponent},
     {path:'home', component : HomeComponent},
