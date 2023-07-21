@@ -1,0 +1,92 @@
+<div class="card bg" style="height: 35rem;">
+    <div class="row">
+        <div class="col-md-1">
+
+        </div>
+        <div class="col-md-6">
+            <br />
+            <p class="card-text" style="font-size: 20px;">
+                We apprecite your interest in Prompt Solutions.
+                Please fill the details below.
+            </p>
+            <div class="container">
+                <br/>
+                <form name="contactForm" #contactForm="ngForm" (submit)="onSubmit();">
+                    <div class="form-group">
+                        <div class="row">
+                            <label for="" style="width:100px;"><b>Name :  </b></label>
+
+                            <input type="text" class="form-control" name="userNmae" required [(ngModel)]="userName"
+                                placeholder="Enter Name" #name="ngModel"
+                                [class.is-invalid]="name.invalid && name.touched" style="width:350px;" />
+
+                            <small class="text-danger" [class.d-none]="name.untouched || name.valid">Please enter
+                                Name.</small>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group" style="padding-top: 15px;">
+                        <div class="row">
+                        <label for="" style="width:100px;"><b>Email :</b></label>
+
+                        <input type="email" name="email" placeholder="Enter Email" class="form-control" required
+                            style="width:350px;" [(ngModel)]="email" #userEmail="ngModel"
+                            [class.is-invalid]="userEmail.invalid && userEmail.touched"
+                            pattern="[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[a-z]{2,4}$" />
+                        <div *ngIf="userEmail.errors && userEmail.touched">
+                            <small class="text-danger" *ngIf="userEmail.errors['required']">Please enter your email
+                                ID.</small>
+                            <small class="text-danger" *ngIf="userEmail.errors['pattern']">Please enter valid email
+                                ID.</small>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="form-group" style="padding-top: 15px;">
+                        <div class="row">
+                        <label for="" style="width:100px;"><b>Mobile No :</b></label>
+                        <br />
+                        <input type="text" name="mobile" placeholder="Enter Contact Number" class="form-control"
+                            required style="width:350px;" [(ngModel)]="userMobile" #mobile="ngModel"
+                            [class.is-invalid]="mobile.invalid && mobile.touched" pattern="^\d{10}" />
+                        <div *ngIf="mobile.errors && mobile.touched">
+                            <small class="text-danger" *ngIf="mobile.errors['required']">Please enter your Mobile
+                                Number.
+                            </small>
+                            <small class="text-danger" *ngIf="mobile.errors['pattern']">Please enter valid Mobile
+                                Number.
+                            </small>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="form-group" style="padding-top: 15px;">
+                        <div class="row">
+                        <label for="" style="width:100px;"><b>Message</b></label>
+                        <br />
+                        <textarea name="desc" class="form-control textarea" style="height: 8rem;" required
+                            [(ngModel)]="msg" style="width:350px;" #messge="ngModel" placeholder="Enter message"
+                            [class.is-invalid]="messge.invalid && messge.touched"></textarea>
+
+                        <small class="text-danger" [class.d-none]="messge.untouched || messge.valid">Please enter your
+                            message.</small>
+                            </div>
+
+                    </div>
+
+                    <input type="submit" value="submit" class="btn btn-primary btn-block"
+                        [disabled]="contactForm.invalid" style="width:120px; margin-left: 150px; padding-top: 15px;" />
+
+                </form>
+            </div>
+
+        </div>
+        <div class="col-md-5" style="margin-top: 270px;">
+          
+            <p class="card-text side_heading3">Address :</p>
+            <p class="card-text address">210 Presidential Dr, </p>
+            <p class="card-text address"> Wilmington, DE - 19807, USA</p>
+
+            <p class="card-text address"> C : 302-513-7283</p>
+            <p class="card-text address"> E : contact@prompt-sol.com </p>
+        </div>
+    </div>

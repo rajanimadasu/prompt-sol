@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {AppRoutingModule} from './app-routing-module';
+import {FormsModule} from "@angular/forms"
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -14,6 +15,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { ExpertiseComponent } from './components/expertise/expertise.component';
 import { PartnershipComponent } from './components/partnership/partnership.component';
 import { MainpageslidingComponent } from './pages/mainpagesliding/mainpagesliding.component';
+import { ContactusFormComponent } from './pages/contactus-form/contactus-form.component';
+import { ThankyouComponent } from './pages/thankyou/thankyou.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +31,14 @@ import { MainpageslidingComponent } from './pages/mainpagesliding/mainpageslidin
     HomeComponent,
     ExpertiseComponent,
     PartnershipComponent,
-    MainpageslidingComponent
+    MainpageslidingComponent,
+    ContactusFormComponent,
+    ThankyouComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

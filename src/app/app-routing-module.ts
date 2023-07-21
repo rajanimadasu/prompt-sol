@@ -9,6 +9,8 @@ import { MissionComponent } from "./components/mission/mission.component";
 import { ExpertiseComponent } from "./components/expertise/expertise.component";
 import { PartnershipComponent } from "./components/partnership/partnership.component";
 import { MainpageslidingComponent } from "./pages/mainpagesliding/mainpagesliding.component";
+import { ContactusFormComponent } from "./pages/contactus-form/contactus-form.component";
+import { ThankyouComponent } from "./pages/thankyou/thankyou.component";
 
 const routes:Routes = [
     {path:'',  component : MainpageslidingComponent},
@@ -18,10 +20,12 @@ const routes:Routes = [
     {path:'home', component : HomeComponent},
     {path:'about', component : AboutUsComponent},
     {path:'contact', component : ContactUsComponent},
+    {path:'contactform', component : ContactusFormComponent},
     {path:'services', component : ServicesComponent},
     {path:'mission', component : MissionComponent},
     {path:'expertise', component : ExpertiseComponent},
     {path:'partnership', component : PartnershipComponent},
+    {path:'thankyou',component:ThankyouComponent},
     {path: '**', component : MainpageslidingComponent}
 
 ]

@@ -77,10 +77,10 @@ body {
  
 
 .phoneimage {
-  width: 20px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
   background-image: url('../src/assets/images/phone_icon.jpg') ;
-  background-size: 20px 15px;
+  background-size: 18px 18px;
 }
 
 .mainpagesliding_bg {
@@ -100,6 +100,13 @@ body {
   width : 700px;
   height : 430px;
   background-size: 700px 430px;
+
+}
+.thankyou_img{
+  background-image: url('../src/assets/images/thankyou_image.png') ;
+  width : 400px;
+  height : 250px;
+  background-size: 400px 250px;
 
 }
 .staffing_search{
@@ -123,4 +130,18 @@ body {
   height : 430px;
   background-size: 700px 430px;
 
+}
+
+.wrapper{
+  width : 450px;
+  background-color: hwb(0 94% 0% / 0.225);
+  padding : 10px 20px;
+  border-radius: 10px;
+  box-shadow : 10px 5px #888;
+}
+.address
+{
+  font-size: 18px;
+  color:coral;
+  
 }
